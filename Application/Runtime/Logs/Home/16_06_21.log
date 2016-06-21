@@ -1,0 +1,14 @@
+[ 2016-06-21T13:28:37+08:00 ] 127.0.0.1 /mytkp/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_user`
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpwebapp\mytkp\ThinkPHP\Library\Think\Db\Driver.class.php:170) D:\phpwebapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpwebapp\mytkp\ThinkPHP\Library\Think\Db\Driver.class.php:170) D:\phpwebapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
